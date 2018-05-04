@@ -29,7 +29,7 @@ public:
 
 	//Step 5: Expose a method
 	UFUNCTION(BlueprintCallable, Category = "BaseCharacter")
-		virtual void CalculateHealth(float delta);
+		virtual void CalculateHealth(float Delta);
 
 
 	//Step 6: Editor code to make updating values in the editor cleaner
